@@ -1,0 +1,77 @@
+.Container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    height: 100%;
+    padding: 0 20px;
+    @media only screen and (max-width: 768px) {
+        display: block;
+        height: auto;
+    }
+
+    .colLeft {
+        flex: 1;
+        @media only screen and (max-width: 768px) {
+            flex: none;
+            width: 100%;
+        }
+    }
+    .colRight {
+        flex: 1;
+        flex-basis: 100px;
+    }
+
+    .contentContainer {
+        width: 90%;
+        h1 {
+            font-family: 'Apercu Pro Bold', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Apercu Pro', serif;
+            font-size: 1rem;
+        }
+    }
+    .button {
+        display: inline-block;
+        font-family: 'Apercu Pro Bold', serif;
+        background-color: #F32535;
+        border: none;
+        color: white;
+        margin-top: 10px;
+        padding: 12px 16px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        line-height: 30px;
+
+        &:disabled {
+            background: gray;
+        }
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    .refreshing {
+        float: right;
+        margin-left: 10px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url("../../assets/images/Buttons/refreshing.png");
+        background-size: cover;
+
+    }
+    .termsAndCon {
+        display: block;
+        font-family: 'Apercu Pro', serif;
+        font-size: .8rem;
+        color: white;
+        padding:10px;
+
+    }
+}
+

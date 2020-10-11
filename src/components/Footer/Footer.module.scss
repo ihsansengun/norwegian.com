@@ -1,0 +1,183 @@
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #F32535;
+
+  @media only screen and (max-width: 768px) {
+    height: auto;
+  }
+  @media only screen and (max-width: 640px) {
+    position: relative;
+    height: auto;
+  }
+
+  .content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+
+    @media only screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+  }
+
+  .social {
+    text-align: left;
+
+    @media only screen and (max-width: 768px) {
+      width: 50%;
+      order: 1;
+    }
+
+  }
+
+  .shareThis {
+    font-family: 'Apercu Pro', serif;
+    font-size: .8rem;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    line-height: 30px;
+
+  }
+
+  .menu {
+    text-align: center;
+    line-height: 30px;
+
+    a {
+      position: relative;
+      font-family: 'Apercu Pro', serif;
+      font-size: 0.8rem;
+      color: white;
+      text-decoration: none;
+      margin-right: 10px;
+      padding: 0 5px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 0.7rem;
+      }
+    }
+
+    a:after {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background-color: white;
+      position: absolute;
+      right: -5px;
+      top: 0;
+    }
+
+    a:last-child {
+      margin-right: 0;
+    }
+
+    a:last-child:after {
+      content: none;
+    }
+
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+      order: 3;
+      margin-top: 10px;
+    }
+  }
+
+  .musicBy {
+    text-align: right;
+    @media only screen and (max-width: 768px) {
+      width: 50%;
+      order: 2;
+    }
+  }
+
+  .musicByText {
+    display: block;
+    float: left;
+    font-family: 'Apercu Pro', serif;
+    font-size: .8rem;
+    margin-right: 10px;
+    line-height: 30px;
+    @media only screen and (max-width: 768px) {
+      position: relative;
+      display: inline-block;
+      float: none;
+      line-height: normal;
+      bottom: 5px;
+    }
+
+  }
+
+
+  .icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-size: cover;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+
+  .iconFb {
+
+    background-image: url("../../assets/images/Footer/facebook_footer.png");
+
+  }
+
+  .iconTw {
+    background-image: url("../../assets/images/Footer/twitter_footer.png");
+  }
+
+
+  .iconSpotify {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-size: cover;
+    margin-top: 5px;
+    background-image: url("../../assets/images/Footer/spotify_Logo_rgb_white.png");
+    @media only screen and (max-width: 768px) {
+      display: inline-block;
+      float: none;
+    }
+  }
+
+  .spotify {
+    display: block;
+    font-family: 'Apercu Pro Bold', serif;
+    font-size: .9rem;
+    float: right;
+    text-align: right;
+    margin-left: 2px;
+    line-height: 28px;
+    @media only screen and (max-width: 768px) {
+      display: inline-block;
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
