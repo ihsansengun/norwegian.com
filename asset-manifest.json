@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/norwegian.com/static/css/main.71c769e2.chunk.css",
-    "main.js": "/norwegian.com/static/js/main.9c81424a.chunk.js",
-    "main.js.map": "/norwegian.com/static/js/main.9c81424a.chunk.js.map",
+    "main.js": "/norwegian.com/static/js/main.99283a97.chunk.js",
+    "main.js.map": "/norwegian.com/static/js/main.99283a97.chunk.js.map",
     "runtime-main.js": "/norwegian.com/static/js/runtime-main.228ccca0.js",
     "runtime-main.js.map": "/norwegian.com/static/js/runtime-main.228ccca0.js.map",
     "static/js/2.dd7da66a.chunk.js": "/norwegian.com/static/js/2.dd7da66a.chunk.js",
     "static/js/2.dd7da66a.chunk.js.map": "/norwegian.com/static/js/2.dd7da66a.chunk.js.map",
     "index.html": "/norwegian.com/index.html",
-    "precache-manifest.ec61f173a6eb96a6251217e708d6d792.js": "/norwegian.com/precache-manifest.ec61f173a6eb96a6251217e708d6d792.js",
+    "precache-manifest.a3fb791d833fb4b143c421be42711bad.js": "/norwegian.com/precache-manifest.a3fb791d833fb4b143c421be42711bad.js",
     "service-worker.js": "/norwegian.com/service-worker.js",
     "static/css/main.71c769e2.chunk.css.map": "/norwegian.com/static/css/main.71c769e2.chunk.css.map",
     "static/js/2.dd7da66a.chunk.js.LICENSE.txt": "/norwegian.com/static/js/2.dd7da66a.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.228ccca0.js",
     "static/js/2.dd7da66a.chunk.js",
     "static/css/main.71c769e2.chunk.css",
-    "static/js/main.9c81424a.chunk.js"
+    "static/js/main.99283a97.chunk.js"
   ]
 }

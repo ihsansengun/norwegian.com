@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abae617c25be4a3d247ff08101e02336",
+    "revision": "37676581cd9b7ebacfd29cf1f5768781",
     "url": "/norwegian.com/index.html"
   },
   {
-    "revision": "1580076c4f58758d6c51",
+    "revision": "07de47341e001351336b",
     "url": "/norwegian.com/static/css/main.71c769e2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/norwegian.com/static/js/2.dd7da66a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1580076c4f58758d6c51",
-    "url": "/norwegian.com/static/js/main.9c81424a.chunk.js"
+    "revision": "07de47341e001351336b",
+    "url": "/norwegian.com/static/js/main.99283a97.chunk.js"
   },
   {
     "revision": "542c5de5b920be84c057",
